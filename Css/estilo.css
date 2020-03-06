@@ -1,0 +1,60 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{ 
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background: #069 url(../img/tecc.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    #curva{
+        position: absolute;
+        padding: 0;
+        width: 100%;
+        bottom: 0;
+    }
+    #curva path{
+            fill: #fff;
+    }
+    .container-lg{
+        background: #fff;
+        height: 100vh;
+    
+    }
+    h1{
+        text-align: center;
+        color: #fff;
+        padding: 25vh;
+        font:bold;
+    }
+    .col-4{
+        float: left;
+        margin-left: 150px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    #coluna-4{
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333333333%;
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+        float: right;
+        margin-left: 190px;
+    }
+    h2{
+        text-align: center;
+    }
+    footer{
+        height: 15vh;
+        color: #fff;
+        text-align: center;
+    }
+    
